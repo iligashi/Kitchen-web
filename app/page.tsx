@@ -14,6 +14,9 @@ import kitchen5 from "../img/kitchen5.jpg"
 import kitchen6 from "../img/kitchen6.jpg"
 import kitchenmain from "../img/kitchenmain.jpg"
 import kitchenmain1 from "../img/kitchenmain1.jpg"
+import man1 from "../img/man1.png"
+import woman1 from "../img/woman1.png"
+import woman2 from "../img/woman2.png"
 
 
 
@@ -104,28 +107,29 @@ export default function FuturisticKitchenLanding() {
   ]
 
   const testimonials = [
-    {
-      name: "Dr. Sarah Quantum",
-      location: "Neo Tokyo, 2024",
-      rating: 5,
-      text: "The neural interface integration exceeded all expectations. My kitchen now anticipates my needs.",
-      image: kitchenmain,
-    },
-    {
-      name: "Marcus Cybernetic",
-      location: "Digital District, NY",
-      rating: 5,
-      text: "Revolutionary design that adapts to my lifestyle. The holographic displays are incredible.",
-      image: kitchenmain1,
-    },
-    {
-      name: "Luna Nexus",
-      location: "Cloud City, CA",
-      rating: 5,
-      text: "Pure artistry meets quantum technology. This isn't just a kitchen, it's the future.",
-      image: kitchenmain,
-    },
-  ]
+  {
+    name: "Arta Berisha",
+    location: "Prishtinë, 2023",
+    rating: 5,
+    text: "Kuzhina që porosita është më shumë sesa e mrekullueshme. Dizajni modern dhe materiali cilësor janë të jashtëzakonshëm!",
+    image: woman1,
+  },
+  {
+    name: "Driton Krasniqi",
+    location: "Ferizaj, Kosovë",
+    rating: 5,
+    text: "Shërbim shumë profesional nga fillimi deri në fund. Kuzhina është e përshtatur perfekt sipas hapësirës sime.",
+    image: man1,
+  },
+  {
+    name: "Liridona Mehmeti",
+    location: "Gjakovë, 2024",
+    rating: 5,
+    text: "Jam jashtëzakonisht e kënaqur me rezultatin. E bukur, funksionale dhe shumë elegante. Faleminderit për punën e palodhur!",
+    image: woman2,
+  },
+];
+
 
   const processSteps = [
     {
@@ -720,7 +724,7 @@ export default function FuturisticKitchenLanding() {
           <div className="grid md:grid-cols-4 gap-12">
             <div>
               <h3 className="text-3xl font-thin mb-6 tracking-wider">NEXUS</h3>
-              <p className="text-gray-400 mb-6 font-light">Quantum kitchen evolution since 2024</p>
+              <p className="text-gray-400 mb-6 font-light">Quantum kitchen evolution since 2025</p>
               <div className="flex gap-4">
                 <Badge variant="outline" className="bg-white/5 text-white border-white/20 font-mono">
                   <Award className="w-4 h-4 mr-2" />
@@ -753,21 +757,21 @@ export default function FuturisticKitchenLanding() {
               <div className="space-y-4 text-gray-400 font-mono text-sm">
                 <div className="flex items-center gap-3">
                   <Phone className="w-4 h-4" />
-                  <span>+1.QUANTUM.LINK</span>
+                  <span>nexoragency.netlify.app</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4" />
-                  <span>neural@nexuskitchens.quantum</span>
+                  <span>Nexoragency@outlook.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="w-4 h-4" />
-                  <span>Neo District, Quantum City</span>
+                  <span>Prishtina , Kosova</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="border-t border-white/10 mt-16 pt-12 text-center text-gray-400 font-mono text-sm">
-            <p>&copy; 2024 NEXUS QUANTUM KITCHENS. ALL NEURAL RIGHTS RESERVED.</p>
+            <p>&copy; 2025 NEXUS QUANTUM KITCHENS. ALL Nexora RIGHTS RESERVED.</p>
           </div>
         </div>
       </footer>
